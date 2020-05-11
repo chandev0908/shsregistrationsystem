@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset= "utf-8">
+	<meta name="viewpoint" content="width=device-width">
+	<meta name="keywords" content="Web Design, Affordable Web Design, Professional Web Design">
+	<meta name="author" content="Arjay Rey Matias">
+        <title>DHS Enrolment System - SHS</title>
+        <!--  <script src="./script.js"></script> -->
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+	    <header>
+		  <div class="container">
+		  <div id="branding">
+		     <h1><span class="highlight">Dapdap High School - Senior</span></h1>
+		  </div>
+		  <nav>
+		    <ul>
+			  <li><a href="index.html">HOME</a></li>
+			</ul>
+		   </nav>
+		   </div>
+		   </header>
+
+		   <div id="branding">
+		   <table>
+		   <tr>
+		     <td colspan= 100><h2><span class="highlight">ENROLL NOW!</span></h2></td>
+		   </tr>
+		   </table>
+		  </div>
+
+		<section id="newsletter">
+		<div class="container">
+			 <h1>Welcome SHS Learners!</h1>
+			 <p>Its a blessed school day to all of Senior High School Learners. This is your system which provides an ease paced procedures in order you to
+			    enroll fast and safe. If you are a newcomer SHS student here in Dapdap High School, please make sure that you have already your requirements and knowledge
+			    about the SHS program and its curriculum. Let your enroll begins! Thank you!</p>
+
+
+ <form action="connection.php" method="POST">
+   <br>
+   <br>
+     <table>
+       <tr>
+     <td>First Name : <input type="text" class="form__input" name="first" placeholder="Firstname" required></td>
+     <td><label for="firstname" class="form__label">Firstname</label></td>
+       </tr>
+     </table>
+   </div>
+   <br>
+     <table>
+       <tr>
+     <td>Last Name : <input type="text" class="form__input" name="last" placeholder="Lastname" required></td>
+  <td><label for="lastname" class="form__label">Lastname</label></td>
+       <tr>
+     </table>
+   </div>
+   <br>
+     <table>
+       <tr>
+     <td>Middlename : <input type="text" class="form__input" name="middle" placeholder="Midllename" required></td>
+  <td><label for="middlename" class="form__label">Middlename</label></td>
+       </tr>
+     </table>
+   </div>
+     <br>
+
+     <h4>Birthday</h4>
+<input type="Date" name="date_of_birth" placeholder="DD/MM/YY" required>
+<br>
+<br>
+Gender :
+<br>
+<br>
+     <input type="radio" checked="checked"name="sex" value="Male" required>Male
+     <input type="radio"class="checkmark" checked="checked" name="sex" value="Female" required>Female
+     <br>
+     <br>
+       <table>
+       <tr>
+       <td>Last attended School : <input type="text" class="form__input" name="school" placeholder="Last attended School" required></td>
+       <td><label for="school" class="form__label">Last attended School</label></td>
+      </tr>
+      </table>
+     </div>
+
+       <table>
+       <tr>
+       <td>Last Section : <input type="text" class="form__input" name="section" placeholder="Section" required></td>
+       <td><label for="section" class="form__label">Section</label></td>
+       </tr>
+       </table>
+    <br>
+    <br>
+    <br>
+     </div>
+     <select name="strand" required>
+      <option selected hidden value="">Select Strand</option>
+      <option name="tvl" value="TVL">tvl</option>
+      <option name="humms" value="HUMMS">humms</option>
+      <option name="abm" value="ABM">abm</option>
+      <option name="stem" value="STEM">stem</option>
+     </select>
+<br>
+<br>
+
+    <button type="submit" name="submit"> Submit</button>
+
+ </form>
+ </div>
+ </section>
+		<footer>
+		    <p> Programmed by:Arjay Rey Matias DHS Enrolment System, Copyright &copy; 2019</p>
+        </footer>
+</body>
+</html>
